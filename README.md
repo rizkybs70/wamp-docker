@@ -3,7 +3,7 @@
 This is a basic WAMP stack environment built using Docker Compose. It consists following:
 
 * Apache v2.4
-* MySQL v8
+* MySQL v5.7.30-beta-travis
 * PHP v7.2
 * phpMyAdmin
 
