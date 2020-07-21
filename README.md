@@ -1,6 +1,6 @@
 # WAMP stack built with Docker Compose
 
-This is a basic WAMP stack environment built using Docker Compose. It consists following:
+This is a basic WAMP stack environment built using Docker Compose. I just adjust the images for ARM64 System. It consists following:
 
 * Apache v2.4
 * MySQL v5.7.30-beta-travis
@@ -12,8 +12,8 @@ This is a basic WAMP stack environment built using Docker Compose. It consists f
 Clone this repository on your local computer. Run the `docker-compose up`.
 
 ```shell
-git clone https://github.com/solodyagin/docker-compose-wamp.git
-cd docker-compose-wamp/
+git clone https://github.com/rizkybs/wamp-docker.git
+cd wamp-docker/
 git fetch --all
 docker-compose up
 ```
